@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<h1 id="title">Granblue Fantasy Waifu Survey</h1>
+<p id="description">Survey on whose waifu you like the most in Granblue Fantasy mobile game.</p>
+
+<form id="survey-form">
+
+<div class="form-gbf-player">
+  
+<label for="name" id="name-label">Enter your gbf name: </label>
+<input name="name" id="name" type="text" placeholder="Aika Natsukawa" required
+/>
+  </div>
+
+<div class="form-gbf-player">
+
+<label for="email" id="email-label">Enter your gbf email</label>
+<input name="email" id="email" type="email" placeholder="rolievsjb@pogita.com" required />
+  </div>
+
+<div class="form-gbf-player">
+
+<label for="number" id="number-label">Enter your age (21-38 only)</label>
+<input name="number" id="number" type="number" value="21" min="21" placeholder="21" max="38" required />
+
+  </div>
+
+<div class="form-gbf-player">
+
+<label for="waifu-select">Choose a waifu:</label>
+ <select id="dropdown">
+    <option value="">--Please choose an option--</option>
+  <option value="fraux">Fraux</option>
+  <option value="jeanne d'arc">Jeanne d'Arc</option>
+  <option value="europa">Europa</option>
+  <option value="zooey">Zooey</option>
+  <option value="alexiel">Alexiel</option>
+  <option value="tweyen">Tweyen</option>
+   </select> 
+  </div>
+
+<fieldset>
+  <legend>Did you use perpetuity ring on her?</legend>
+
+  <div>
+    <input type="radio" id="yes" name="yesorno" value="yes" checked />
+    <label for="yes">Yes</label>
+  </div>
+
+  <div>
+    <input type="radio" id="no" name="yesorno" value="no" />
+    <label for="no">No</label>
+  </div>
+
+
+</fieldset>
+
+<fieldset>
+  <legend>Choose your waifu's version:</legend>
+
+  <div>
+    <input type="checkbox" id="yukata" name="yukata" value="yukata" checked />
+    <label for="yukata">Yukata</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="summer" name="summer" value="summer" />
+    <label for="summer">Summer</label>
+  </div>
+</fieldset>
+
+<label for="story">Why is your waifu the best?</label>
+
+<textarea id="why-waifu" name="why-waifu" rows="5" cols="33">
+Her voice is so soothing and calming...
+</textarea>
+
+
+<input type="submit" id="submit" value="Submit" />
+
+</div>
+   
+
+  </form>
+  </html>
